@@ -100,16 +100,16 @@
 
 </head>
 <body>
-  <main class="card">
-    <img class="card__image" src="./images/image-qr-code.png" alt="QR code for visiting Frontend Mentor">
-    <h1 class="card__title">
+  <main class="card" aria-labelledby="card-title" aria-describedby="card-description">
+    <img class="card__image" src="./images/image-qr-code.png" alt="QR code for visiting Frontend Mentor" aria-hidden="true">
+    <h1 id="card-title" class="card__title">
       Improve your front-end skills by building projects
     </h1>
-    <p class="card__description">
+    <p id="card-description" class="card__description">
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </p>
     <footer>
-      <a href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer" class="card__button">Learn more -&gt</a>
+      <a href="https://www.frontendmentor.io/" target="_blank" rel="noopener noreferrer" class="card__button" aria-label="Learn more about Frontend Mentor">Learn more -&gt</a>
     </footer>
   </main>
 </body>
