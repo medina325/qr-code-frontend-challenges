@@ -9,12 +9,11 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <style>
-    *,
-    *::before,
-    *::after {
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
@@ -64,13 +63,13 @@
 
     .card__title {
       font-weight: 700;
+      font-size: 1.4rem;
       color: hsl(218, 44%, 22%);
       margin-bottom: 10px;
     }
 
     .card__description {
       font-weight: 400;
-      color: hsl(216, 15%, 48%);
     }
 
     footer {
@@ -103,9 +102,9 @@
 <body>
   <main class="card">
     <img class="card__image" src="./images/image-qr-code.png" alt="QR code for visiting Frontend Mentor">
-    <h2 class="card__title">
+    <h1 class="card__title">
       Improve your front-end skills by building projects
-    </h2>
+    </h1>
     <p class="card__description">
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </p>
