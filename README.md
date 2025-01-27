@@ -96,7 +96,7 @@ The main points I still need to develop are:
 
 ## Acknowledgments
 
-:mega A shoutout to the creators of this wonderful platform, for sparing me the trouble of defining what frontend challenges to tackle.
+📣 A shoutout to the creators of this wonderful platform, for sparing me the trouble of defining what frontend challenges to tackle.
 
 As someone who has always struggled with frontend, I now feel hopeful that I can finally bring my frontend skills up to par with my other technical abilities.
 
